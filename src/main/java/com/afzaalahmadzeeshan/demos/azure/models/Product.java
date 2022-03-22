@@ -1,6 +1,9 @@
 package com.afzaalahmadzeeshan.demos.azure.models;
 
+import com.azure.data.tables.models.TableEntity;
+
 public class Product {
+
     private int id;
     private String title;
     private String description;
