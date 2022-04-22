@@ -1,8 +1,12 @@
 package com.afzaalahmadzeeshan.demos.azure.models;
 
-import com.azure.data.tables.models.TableEntity;
+import java.util.Date;
 
 public class Product {
+
+    private String PartitionKey;
+    private String RowKey;
+    private Date Timestamp;
 
     private int id;
     private String title;
@@ -48,5 +52,29 @@ public class Product {
 
     public void setAvailable(boolean available) {
         this.available = available;
+    }
+
+    public String getPartitionKey() {
+        return PartitionKey;
+    }
+
+    public void setPartitionKey(String partitionKey) {
+        this.PartitionKey = partitionKey;
+    }
+
+    public String getRowKey() {
+        return RowKey;
+    }
+
+    public void setRowKey(String rowKey) {
+        this.RowKey = rowKey;
+    }
+
+    public Date getTimestamp() {
+        return Timestamp;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.Timestamp = timestamp;
     }
 }

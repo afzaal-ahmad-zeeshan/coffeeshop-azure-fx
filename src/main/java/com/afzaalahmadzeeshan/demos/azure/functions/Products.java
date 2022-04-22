@@ -12,8 +12,6 @@ import com.microsoft.azure.functions.annotation.FunctionName;
 import com.microsoft.azure.functions.annotation.HttpTrigger;
 import com.microsoft.azure.functions.annotation.TableInput;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 /**
