@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptions_62abbbd59a937c003f070001_displayName": {
+            "value": null
+        },
+        "subscriptions_62abbbd69a937c003f070002_displayName": {
+            "value": null
+        },
+        "users_1_lastName": {
+            "value": null
+        },
+        "sites_coffeeshop_fx_name": {
+            "value": null
+        },
+        "components_coffeeshop_fx_name": {
+            "value": null
+        },
+        "serverfarms_ASP_coffeeshopRG_a3a1_name": {
+            "value": null
+        },
+        "service_coffeeshop_fx_apim_name": {
+            "value": null
+        },
+        "storageAccounts_coffeeshoprga37a_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___coffeeshop_fx_name": {
+            "value": null
+        },
+        "actiongroups_application_insights_smart_detection_externalid": {
+            "value": null
+        },
+        "workspaces_defaultworkspace_b479c2bb_e74c_48aa_9e54_f02bc4020007_weu_externalid": {
+            "value": null
+        }
+    }
+}
